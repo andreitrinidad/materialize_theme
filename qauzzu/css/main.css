@@ -32,7 +32,6 @@
   left: 0; 
   width: 100%;
   height: 100%
-
 }
 
 .section-podcast{
@@ -59,4 +58,49 @@
   .section-podcast {
     min-height: 240px;
   }
+}
+
+.main-header-inner{
+  background: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 350px;
+  color: #fff;
+}
+
+.main-header-inner .showcase{
+  padding-top: 50px;
+}
+
+
+.section-features{
+
+}
+
+ /* label color */
+ .input-field label {
+  color: purple !important;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: purple !important;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid purple !important;
+  box-shadow: 0 1px 0 0 purple !important;
+}
+/* valid color */
+.input-field input[type=text].valid {
+  border-bottom: 1px solid purple !important;
+  box-shadow: 0 1px 0 0 purple !important;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+  border-bottom: 1px solid purple !important;
+  box-shadow: 0 1px 0 0 purple !important;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: purple !important;
 }
